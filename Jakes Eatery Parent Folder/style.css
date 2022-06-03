@@ -43,7 +43,9 @@ nav a:hover {
 
 .jakesmealsbanner {
     background-image: url("additional-assets/jakes-meals.jpg");
-max-height: 250px;}
+    background-repeat: repeat;
+    height: 250px;
+}
 
 article {
     padding: 1rem;
@@ -67,9 +69,13 @@ article {
     padding: 0 0.5rem;
 }
 
-section {
+section {text-align: center;
+    
+    margin: auto;
     padding: 1rem;
 }
+
+section p {text-align: center;}
 
 section ul {
     list-style-type: none;
